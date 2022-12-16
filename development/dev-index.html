@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Dev Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #414852">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html" style="color: #B6DAD0">
+          WailingWhale111
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" href="#background"> Background</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" href="#planning"> Planning </a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" href="#design-principles"> Design Principles </a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" href="#UXResearch"> Conclusion </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-end">
+            <div class="dropdown">
+              <a style="color: #B6DAD0" class="nav-link dropdown-toggle" href="#Works" role="button" id="nav-link"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Works
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" id="dropdown" data-toggle="dropdown" lass="dropdown-menu"
+                aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a id="nav-link2" class="dropdown-item" href="../personas/personas-index.html">
+                    Personas and Storytelling
+                  </a>
+                </li>
+                <li>
+                  <a id="nav-link2" class="dropdown-item" href="../redesign/redesign-index.html">
+                    Responsive Redesign
+                  </a>
+                </li>
+                <li>
+                  <a id="nav-link2" class="dropdown-item" href="../iterative/iterative-index.html">
+                    Iterative Redesign
+                  </a>
+                </li>
+                <li>
+                  <a id="nav-link2" class="dropdown-item" href="dev-index.html">
+                    Development
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" style="color: #B6DAD0" href="../aboutme.html"> About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main role="main" class="container">
+    <div class="spacer"></div>
+    <div class="row text-center">
+      <h1>
+        CSCI1300: Development
+      </h1>
+    </div>
+    <div class="spacer"></div>
+    <div class="row" id="background">
+      <h2 class="text-center">
+        Background
+      </h2>
+      <div id="spacer"></div>
+      <p>
+        This project was intended to teach the interactibility of React, where build an interface using components and internal data state using list-based interface. 
+        Some of the basic functionality of the interface that were required to include: <br />
+      <div class="col-sm-6">
+        <ul>
+          <li>
+            At least 12 items on the page
+          </li>
+          <li>
+            At least 2 filtering categories
+          </li>
+          <li>
+            At least 1 sorting feature
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <ul>
+          <li>
+            Ways to add and remove items
+          </li>
+          <li>
+            Aggregate items in the "cart"
+          </li>
+          <li>
+            Way to reset the items
+          </li>
+        </ul>
+      </div>
+        
+      I have decided to work with the kpop group called NCT; NCT is one of the unique groups 
+      because they have this theme of "infinity." Currently, there are total of 23 members, 
+      and more get added every year. Additionally, in K-Pop fandom, we have this term called 
+      "bias" which refers to "favorite member(s)." Through my interactive interface, I wanted 
+      the users to interact with my interface to curate their bias list. 
+      </p>
+    </div>
+    <div class="spacer"></div>
+    <div class="row" id="planning">
+      <h2 class="text-center">
+        Planning
+      </h2>
+      <p>
+        The user will be able sort by age and alphabetical order of the members; filter by 
+        sub-groups and position; and curate a bias list where it aggregates the list by giving
+        average of their age. 
+      </p>
+    </div>
+    <div class="spacer"></div>
+    <div class="row" id="design-principles">
+      <h2 class="text-center">
+        Design Principles
+      </h2>
+      <p>
+        I tried to focus on three design principles we learned from the course as I played around with the layout: 
+        (1) Hierarchy, (2) Learnability, and (3) Reversibility. 
+      </p>
+      <h4>
+        Hierarchy 
+      </h4>
+      <p>
+        The visual hierarchy refers to the organization of the design elements on the page so that the 
+        eye is guided to consume each design element in the order of intended importance. In most of the 
+        online shopping website, most of the filter and sorting buttons are on the top or on the left side. 
+        I wanted to resemble this common layout so that the users' eyes can naturally lead to the familiar 
+        places. <br/>
+        Additionally, I arranged the card text in this way so that the users can know that the bolded text 
+        is the members' names, then I put the information on the buttons on the left corresponds to the order
+        I put the information on the card. 
+      </p>
+      <h4> 
+        Learnability
+      </h4>
+      <p>
+        Learnability considers how easy it is for users to accomplish a task the first time they encounter the interface and how
+        many repetitions it takes for them to become efficient at that task. When you first load the page, 
+        I wanted the users to know that users are able to add and remove the members from the list by clarifying
+        what each button refers to by clearly labeling them: "Filter by:," "Sort by:," "Add to Bias List." Additionally,
+        by displaying "Average Age:," I wanted to help users learn that by adding members, users can see the average 
+        age of all of their biases in NCT. 
+      </p>
+      <h4>
+        Reversibility
+      </h4>
+      <p>
+        Reversibility is a design principle that says people should be able to recover from their inevitable mistakes. 
+        Although it was required to have a way to clear the filters, I thought there could be
+        different ways to do so. One way is to have a button "Clear All Filter" between
+        where I display the list and the filter and sort buttons. By clicking this button, 
+        it will sort by age and have no filter on any category. Another way is to give the users
+        the ability to filter "All" on both categories and sort by anything at any given time. 
+      </p>
+    </div>
+    <div class="spacer"></div>
+    <div class="row" id="Conclusion">
+      <h2 class="text-center"> Conclusion</h2>
+      <p> Based on these design principles, I was able to build the website using React-Bootstrap. Click "Development Website" below to explore my
+        development website!
+        <br />
+      <div class="text-center">
+        <a class="btn m-1" role="button" href="https://wailingwhale111.github.io/development-nct/" style="background-color:#254949; color:white"> 
+          Development Website
+        </a>
+      </div>
+      </p>
+    </div>
+
+  </main>
+  <footer class="page-footer font-small">
+    <div class="container text-center">
+      <p>
+        <hr/>
+        Website built using Bootstrap's CSS library. <br />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle"
+          viewBox="0 0 16 16">
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+        </svg> WailingWhale111 All Rights Reserved
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
