@@ -33,15 +33,3 @@
 .single {
   grid-template-columns: repeat(1, 1fr);
 }/*# sourceMappingURL=style.css.map */
-
-body {
-  padding: 4.5rem;
-  background-color: #F5EEDE;
-  font-family: 'Lucida Sans',
-    'Lucida Sans Regular',
-    'Lucida Grande',
-    'Lucida Sans Unicode',
-    Geneva,
-    Verdana,
-    sans-serif;
-}
