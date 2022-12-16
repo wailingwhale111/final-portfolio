@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Responsive Redesign</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #414852">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html" style="color: #B6DAD0">
+          WailingWhale111
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" href="#background"> Background</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" href="#problems"> Usability Problems </a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" href="#visual-redesign"> Visual Redesign</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" href="#responsive-redesign"> Responsive Redesign </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-end">
+            <div class="dropdown">
+              <a style="color: #B6DAD0" class="nav-link dropdown-toggle" href="#Works" role="button" id="nav-link"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Works
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end" id="dropdown" data-toggle="dropdown" class="dropdown-menu"
+                aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a id="nav-link2" class="dropdown-item" href="../personas/personas-index.html">
+                    Personas and Storytelling
+                  </a>
+                </li>
+                <li>
+                  <a id="nav-link2" class="dropdown-item" href="redesign-index.html">
+                    Responsive Redesign
+                  </a>
+                </li>
+                <li>
+                  <a id="nav-link2" class="dropdown-item" href="../iterative/iterative-index.html">
+                    Iterative Redesign
+                  </a>
+                </li>
+                <li>
+                  <a id="nav-link2" class="dropdown-item" href="../development/dev-index.html">
+                    Development
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <li class="nav-item">
+              <a id="nav-link" class="nav-link" style="color: #B6DAD0" href="../aboutme.html"> About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main role="main" class="container">
+    <div class="spacer"></div>
+    <div class="row">
+      <h1 class="text-center">
+        CSCI 1300: Responsive Redesign
+      </h1>
+    </div>
+    <div class="spacer"></div>
+    <div class="row" id="background">
+      <h2 class="text-center">Background</h2>
+      <p> My friend who currently does research at Brown University’s Chemistry Department has complained about the website called
+      Faces Scheduling System; this website helps individuals (in the Brown's Chemistry Department) to book time on the NMR machines 
+      in their research lab. On the homepage, it contains a hyperlink called “New Faces Scheduling System works with smart-devices and
+      supports Color Blind Mode,” and it leads to the web page that lists new features and the devices that have been tested on.
+      </p>
+    </div>
+    <div class="spacer"></div>
+    <div class="row" id="problems">
+      <h2 class = "text-center"> Usability Problems</h2>
+      <h4> Original Webpage: </h4>
+      <p> <a href="https://faces.ccrc.uga.edu/newfaceshelp.html"> https://faces.ccrc.uga.edu/newfaceshelp.html </a>
+        <br /> This page has as general problems as missing header and footer as well as minor problems, such as spelling and
+        grammatical errors.
+        <br /> Click on the arrows to view the images of the webpage (total of three pages)!
+      </p>
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="text-center">
+            <div id="pages-carousel" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#pages-carousel" data-bs-slide-to="2"  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/page1.png" class="d-block w-100" alt="1/3 page of the original webpage">
+                </div>
+                <div class="carousel-item active">
+                  <img src="./images/page2.png" class="d-block w-100" alt="2/3 page of the original webpage">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/page3.png" class="d-block w-100" alt="3/3 page of the original webpage">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#pages-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#pages-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <h4> Finding Problems with Website </h4>
+          <p> On the webpage, there are four big sections: <strong>(1)</strong> "Welcome to the new Faces Scheduling System" section, 
+            <strong>(2)</strong> "Help screen for the new interface" and "The new look of the Faces Schedule" sections, 
+            <strong>(3)</strong> "We have tested the new Faces System with the follwoing operating systems, smart devices, and devices" section, 
+            and <strong>(4)</strong> "Directions for adding the Faces System's icon to your iPhone screen" section. <br/>
+            I identified the problem in four big categories: <strong> inconsistency </strong>, <strong> irrelevance</strong>, 
+            <strong> inefficiency</strong>, and <strong> misleading</strong>, and I will cite where these problems are located by the 
+            corresponding section number. 
+          </p>
+          <div id="bullets" class="col">
+            <ul id="problem-list">
+              <strong> <li> Inconsistency </li></strong>
+              <ol>
+                <li>
+                  Incorrect grammar ("sept" at <strong>(4)</strong>)
+                </li>
+                <li>
+                  Inconsistent capitalization (“Welcome to the new Faces Scheduling System” at <strong>(1)</strong>) (The directions at <strong>(4)</strong>)
+                </li>
+                <li>
+                  Inconsistent font size
+                </li>
+              </ol>
+              <strong>
+                <li> Irrelevance </li>
+              </strong>
+              <ol>
+                <li>
+                  The users (e.g. BrownU’s chemistry students in research) might have a difficult time understanding what “java
+                  applets” mean at <strong>(1)</strong>
+                </li>
+              </ol>
+              <strong>
+                <li> Inefficiency </li>
+              </strong>
+              <ol>
+                <li>
+                  Missing header (does not provide flexibility for users to go to other pages on the website)
+                </li>
+                <li>
+                  The table scales down as the device gets smaller in size at <strong>(4)</strong>
+                </li>
+                <li>
+                  Missing footer 
+                </li>
+              </ol>
+              <strong>
+                <li> Misleading </li>
+              </strong>
+              <ol>
+                <li>
+                  Images are hard to recognize at <strong>(2)</strong>
+                </li>
+                <li>
+                  Table is hard to read at <strong>(3)</strong>, and table does not have any caption.
+                </li>
+                <li>
+                  Footnote above and below the table is unnecessary at <strong>(3)</strong>
+                </li>
+                <li>
+                  The heading "Directions for adding the Faces System's icon to your iPhone screen" is unclear and ambiguous in its meaning (at <strong>(4)</strong>)
+                </li>
+              </ol>
+            </ul>
+          </div>
+          <div id="waive" class="text-wrap">
+            <h4> WAIVE Accessibility</h4>
+            <div class="container">
+              <div class="row">
+                <p> Most of what WAIVE reported were along the same line of what
+                    I had found to be the usability issues (missing texts and headers, etc.); missing
+                    alternative texts could have been fixed with better HTML conventions. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacer"></div>
+    <div id="visual-redesign" class="row">
+      <h2 class="text-center"> Visual Redesign</h2>
+      <p>I created a low-fidelity and high-fidelity prototypes for 3 wireframes:
+        laptop, tablet, and mobile to address the problems I have identified. 
+      </p>
+      <h4> Low-Fidelity Prototyping</h4>
+      <p> Click on left and right arrows to navigate through different wireframes! <br/>
+      For laptop's wireframe, please refer to the problem list <a href="#problems">above</a> to see which problem each section is addressing. </p>
+        <div id="lofi-carousel" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+          <button type="button" data-bs-target="#lofi-carousel" data-bs-slide-to="0" aria-label="Slide 1" class="active"
+            aria-current="true"></button>
+          <button type="button" data-bs-target="#lofi-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#lofi-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/lofi-laptop-final.png" class="d-block w-100" alt="laptop version of lofi prototyping">
+            </div>
+            <div class="carousel-item active">
+              <img src="./images/lofi-tablet-final.png" class="d-block w-100" alt="tablet version of lofi prototyping">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/lofi-mobile-final.png" class="d-block w-100" alt="mobile version of lofi prototyping">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#lofi-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#lofi-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h4>High-Fidelity Prototyping</h4>
+        <p> Before I start my high-fidelity prototyping, I created a visual desing style guide. Because there are not an 
+          established color scheme in the website, I first came up with different choices of color schemes. Then, I tried to
+        focus on the header design, more specifically the menu bar. I also experimented with the table style.
+        </p>
+        <img src="./images/visual-guide-final.png" class="d-block w-100" alt="visaul design style guide of color scheme, home icon, and menu bar">
+        <div class="spacer"></div>
+        <p> After creating a visual design style guide, I moved on to creating high-fidelity prototype of the website for the
+          three wireframes again: laptop, tablet, and mobile. Click on the left and right arrow to see my Figma prototypes!
+        </p>
+        <div id="hifi-carousel" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hifi-carousel" data-bs-slide-to="0" aria-label="Slide 1" class="active"
+              aria-current="true"></button>
+            <button type="button" data-bs-target="#hifi-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hifi-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/hifi-laptop-final.png" class="d-block w-100" alt="hifi prototype laptop wireframe">
+            </div>
+            <div class="carousel-item active">
+              <img src="./images/hifi-tablet-final.png" class="d-block w-100" alt="hifi prototype tablet wireframe">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/hifi-mobile-final.png" class="d-block w-100" alt="hifi prototype mobile wireframe">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#hifi-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#hifi-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="responsive-redesign" class="row">
+      <h2 class="text-center"> Responsive Redesign </h2>
+      <p> Based on the usability problems I have identified and on the low and high fidelity prototyping, I 
+        redesigned the webpage using HTML and Bootstrap's CSS components. Click "Redesigned Webpage" below to explore the newly, responsively redesigned webpage!
+        <br/>
+        <div class="text-center">
+          <a class="btn m-1" role="button" href="redesigned.html" style="background-color:#254949; color:white"> Redesigned
+            Webpage</a>
+        </div>
+      </p>
+    </div>
+  </main>
+  <footer class="page-footer font-small">
+    <div class="container text-center">
+      <p>
+        <hr />
+        Website built using Bootstrap's CSS library. <br />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle"
+          viewBox="0 0 16 16">
+          <path
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+        </svg> WailingWhale111 All Rights Reserved
+      </p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>

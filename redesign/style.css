@@ -1,0 +1,60 @@
+body {
+  padding: 4.5rem;
+  background-color: #E4EDF2;
+}
+
+header {
+  display: block;
+}
+
+#nav-button1 {
+  background-color: #A8D0E6;
+  border-color: #A8D0E6
+}
+
+#nav-button1:hover{
+  background-color: #E4EDF2;
+  border-color: #A8D0E6
+}
+
+#nav-button2 {
+  background-color: #A8D0E6;
+  border-color: #A8D0E6
+}
+
+#nav-button2:hover {
+  background-color: #E4EDF2;
+  border-color: #A8D0E6
+}
+#nav-button3 {
+  background-color: #A8D0E6;
+  border-color: #A8D0E6
+}
+
+#nav-button3:hover {
+  background-color: #E4EDF2;
+  border-color: #A8D0E6
+}
+#nav-button4 {
+  background-color: #A8D0E6;
+  border-color: #A8D0E6
+}
+
+#nav-button4:hover {
+  background-color: #E4EDF2;
+  border-color: #A8D0E6
+}
+
+#nav-button5 {
+  background-color: #A8D0E6;
+  border-color: #A8D0E6
+}
+
+#nav-button5:hover {
+  background-color: #E4EDF2;
+  border-color: #A8D0E6
+}
+
+#nav-button1:active{
+  background-color: #E4EDF2;
+}

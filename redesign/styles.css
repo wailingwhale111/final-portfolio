@@ -1,0 +1,27 @@
+img {
+  border-color: black;
+  width: 4rem;
+  height: auto;
+}
+
+header {
+  display: block;
+}
+
+body {
+  padding: 4.5rem;
+  background-color: #F5EEDE;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+  {
+  filter: invert(100%);
+}
+
+.spacer {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
