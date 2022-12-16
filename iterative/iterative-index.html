@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Iterative Design and Evaluation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #414852">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html" style="color: #B6DAD0">
+            WailingWhale111
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="nav-link" class="nav-link" href="#background"> Background</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-link" class="nav-link" href="#sketching"> Sketching and Wireframing </a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-link" class="nav-link" href="#mockups"> Mockups</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-link" class="nav-link" href="#user-testing"> User Testing</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-link" class="nav-link" href="#contact"> Contact the Startup</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-link" class="nav-link" href="#conclusion"> Conclusion</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav justify-content-end">
+              <div class="dropdown">
+                <a style="color: #B6DAD0" class="nav-link dropdown-toggle" href="#Works" role="button" id="nav-link"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Works
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" id="dropdown" data-toggle="dropdown" lass="dropdown-menu"
+                  aria-labelledby="dropdownMenuLink">
+                  <li>
+                    <a id="nav-link2" class="dropdown-item" href="../personas/personas-index.html">
+                      Personas and Storytelling
+                    </a>
+                  </li>
+                  <li>
+                    <a id="nav-link2" class="dropdown-item" href="../redesign/redesign-index.html">
+                      Responsive Redesign
+                    </a>
+                  </li>
+                  <li>
+                    <a id="nav-link2" class="dropdown-item" href="iterative-index.html">
+                      Iterative Redesign
+                    </a>
+                  </li>
+                  <li>
+                    <a id="nav-link2" class="dropdown-item" href="../development/dev-index.html">
+                      Development
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                <a id="nav-link" class="nav-link" style="color: #B6DAD0" href="../aboutme.html"> About Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main role="main" class="container">
+      <div class="spacer"></div>
+      <div class="row">
+        <h1 class="text-center"> CSCI 1300: Iterative Design and Evaluation</h1>
+      </div>
+      <div class="spacer"></div>
+      <div class="row" id="background">
+        <h2 class="text-center">Background</h2>
+        <p>
+          As a group of computer science students at Brown University, we wanted
+          to iteratively design for a startup that is could be more practical in
+          our daily life. We decided to design for a startup called Taro.
+        </p>
+        <div class="d-flex justify-content-center">
+          <img
+            src="./images/taro-mission.png"
+            class="d-block w-50 align-items-center"
+            alt="taro's mission statement"
+          />
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div class="row" id="sketching">
+        <h2 class="text-center">Sketching and Wireframing</h2>
+        <p>
+          To summarize above, Taro is a website designed to be a premium
+          subscription/membership based platform for software engineers who want
+          to further their career. The idea is that with a payment, Taro will
+          give exclusive access to information about jobs and how to get a job
+          ranging from Q&As with leads from top tech companies and creating
+          optimized performance reviews. The idea is to focus on the networking
+          and non-technical side of the job.
+          <br /><br />
+          After looking at the concept of the startup, we assumed that our users
+          consist of (1) software engineers currently employed, (2)
+          undergraduate students looking for internship or post-grad
+          opportunities, (3) recruiters at different companies. Software
+          engineers who are currently employed would be impacted by this website
+          because then they are able to learn tips and tricks about how to do
+          their job better. Additionally, if they want to pivot companies, this
+          website would provide valuable information for that. Undergraduate
+          students would benefit from this because they are jumping into a field
+          without much prior experience and would benefit from learning how to
+          work as a software engineer and more specifically, how to work as a
+          software engineer for a top tech company. Lastly, recruiters would
+          benefit from the website because they are able to find software
+          engineers who are ambitious and very much either currently on the job
+          hunt or looking to further their career by switching companies. Our
+          users who would interact with their desktop.
+        </p>
+        <div class="images triple">
+          <div class="item">
+            <img src="./images/Home.jpg" alt="sketch 1" />
+            <div class="label text-center">Member A's Home Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/Advice.jpg" alt="sketch 2" />
+            <div class="label text-center">Member A's Advice Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/SignIn.jpg" alt="sketch 3" />
+            <div class="label text-center">Member A's Sign In Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/Insights.jpg" alt="sketch 4" />
+            <div class="label text-center">Member B's Insights Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/Networking2.jpg" alt="sketch 5" />
+            <div class="label text-center">Member B's Networking Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/Promotion.jpg" alt="sketch 6" />
+            <div class="label text-center">Member B's Promotion Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/SignIn2.jpg" alt="sketch 7" />
+            <div class="label text-center">Member C's Sign In Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/Landing.jpg" alt="sketch 8" />
+            <div class="label text-center">Member C's Landing Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/Analytics.jpg" alt="sketch 9" />
+            <div class="label text-center">Member C's Analytics Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/Networking.jpg" alt="sketch 10" />
+            <div class="label text-center">Member D's Networking Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/Companies.jpg" alt="sketch 11" />
+            <div class="label text-center">Member D's Companies Screen</div>
+          </div>
+          <div class="item">
+            <img src="./images/Profile.jpg" alt="sketch 12" />
+            <div class="label text-center">Member D's Profile Screen</div>
+          </div>
+        </div>
+        <p>
+          <br/>After we finished sketching, we shared and discussed how our
+          sketches demonstrate solutions to the company's goals. Below are our
+          wireframes along with relevant annotations.
+        </p>
+        <div class="images double">
+          <img src="./images/lofi-homepage.png" alt="home page lofi" />
+          <img src="./images/lofi-salary.png" alt="salary lofi" />
+          <img src="./images/lofi-careeradvice.png" alt="career advice lofi" />
+          <img src="./images/lofi-careerarticle.png" alt="career article lofi" />
+          <img src="./images/lofi-networking.png" alt="networking lofi" />
+          <img src="./images/lofi-profile.png" alt="profile lofi" />
+          <img src="./images/lofi-signin.png" alt="sign in lofi" />
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div class="row" id="mockups">
+        <h2 class="text-center">Mockups</h2>
+        <p>
+          From the wireframe, we made an interactive high-fidelity wireframe
+          using Figma, and in our studio, we received feedback from the
+          colleagues. Click
+          <a
+            href="https://www.figma.com/proto/fAOO43sE7wszKP7YsCgY0C/Taro?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1"
+            >here</a
+          >
+          to interact with our initial hi-fi prototype. <br /><br />
+          Next, we underwent a critique session with other groups doing similar projects. Here are some critiques that we have received:
+        </p>
+        <ul>
+          <li>Note: We did not receive any critiques on Hierarchy and Navigation.</li>
+          <li>
+            Interaction
+            <ul>
+              <li>Add an interaction screen after clearing history.</li>
+              <li>
+                Add an interaction that helps users sign out of their account.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Learnability
+            <ul>
+              <li>
+                Add more clarity to the filter titles in the expert advice
+                section.
+              </li>
+              <li>
+                Add more clarity to what the salary page is about and its
+                filter.
+              </li>
+              <li>
+                Add more clarity to how the "Events for You" and "Calendar" work
+                on the "Networking Events" section.
+              </li>
+            </ul>
+          </li>
+          <li>
+            Visual design
+            <ul>
+              <li>
+                Change "lorem ipsum" to actual relevant words that would fit
+                into the context.
+              </li>
+              <li>
+                Create consistency between expert advice and career advice.
+              </li>
+              <li>
+                Change 3 bars on the profile page to a button that expands all.
+              </li>
+              <li>
+                Include date, location, and time in the networking events along
+                with a short blurb about the event.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <p>
+          We incorporated all the helpful critiques and finalized our prototype
+          which can be found
+          <a
+            href="https://www.figma.com/proto/xiuSAdncM44AEh6iRIyUUA/Taro-Final?node-id=23%3A210&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=23%3A210"
+            >here</a
+          >.
+        </p>
+      </div>
+      <div class="spacer"></div>
+      <div class="row" id="user-testing">
+        <h2 class="text-center">User Testing</h2>
+        <div>
+          To test the usability of our interface, we conducted our usability
+          test using <a href="https://www.usertesting.com/">UserTesting.com</a>.
+          <br /><br />
+
+          Here are the links of the three users who have used our website:
+          <br />
+          <a
+            href="https://app.usertesting.com/v/ae0cb622-550e-4c43-b748-fdc47425bae0?encrypted_video_handle=57bb5205-4913-4f03-9fd5-9ba5052bb199#!/tasks&shared_via=link"
+            >User 1</a
+          >
+          <br />
+          <a
+            href="https://app.usertesting.com/v/7160295b-bd10-44de-a3d5-568152438eab?encrypted_video_handle=d1fcc5c7-1076-4e14-be84-d273e87e9cf0#!/tasks&shared_via=link"
+            >User 2</a
+          >
+          <br />
+          <a
+            href="https://app.usertesting.com/v/7597962d-7aed-4bbb-92ed-58e0a30650c1?encrypted_video_handle=e54e9b65-702e-4f93-ab7e-af2036c34761#!/tasks&shared_via=link"
+            >User 3</a
+          >
+          <br />
+          <br />
+
+          Scenario Summary: You are Jeff Huang, a college computer science
+          professor, who is thinking of going back into the software engineering
+          industry. You bought a subscription to Taro, an exclusive software
+          engineering career resource and networking platform. Your task is to
+          find the Expert Advice article on an Amazon Recruiter's take on the
+          recession and job market. (Note: This is a prototype and not an actual
+          website so interactions may feel quite different). <br /><br />
+          We analyzed their performance and commentary for each subtask.
+          <br /><br />
+          Go to sign in and login (Assume that the username and password are
+          prefilled):
+          <ul>
+            <li>
+              All users were able to complete the task and all noted that it was
+              an easy process
+            </li>
+            <li>
+              A few users noted how intuitive the location of the sign in button
+              was and that the change to the home page with a profile picture
+              where the sign in button was confirmed that they have successfully
+              signed in
+            </li>
+            <li>
+              This was in line with our expectations as we modeled our sign in
+              process and layout similar to other platforms
+            </li>
+          </ul>
+          Navigate to the Expert Advice page:
+          <ul>
+            <li>
+              2 out of 3 users were able to navigate to the Expert Advice page
+              by clicking on the Expert Advice button on the navigation bar
+            </li>
+            <li>
+              One user directly went to the article from the home screen and was
+              confused by the next subtask. He concluded that the login screen
+              took him to the Expert Advice page as the back button was labeled
+              so
+            </li>
+            <li>
+              Though we expected for some users to directly go to the article,
+              we did not expect his conclusion to be that the home screen to the
+              Expert Advice page due to the back button in the article labeling
+              back to Expert Advice
+            </li>
+          </ul>
+          Go to the article titled "How to handle the recession from an Amazon
+          recruiter's perspective”:
+          <ul>
+            <li>
+              All users were able to go to the article and said that completing
+              the task was very easy
+            </li>
+            <li>
+              This was in line with our expectations as we explicitly stated the
+              article title to look for
+            </li>
+          </ul>
+          Sign out of your account:
+          <ul>
+            <li>
+              2 out of 3 users successfully were able to complete the task and
+              mentioned that the location of the sign out button (in a drop down
+              after clicking profile picture) was very intuitive and followed
+              the structure that all web pages follow
+            </li>
+            <li>
+              One user clicked too far in the subtask step and the figma screen
+              ended, but verbally told us his plan which was correct
+            </li>
+            <li>
+              One user mentioned that a confirmation page that the signout was
+              successful would have been nice
+            </li>
+            <li>
+              This was in line with our expectations as followed the traditional
+              logout location that most web pages follow
+            </li>
+          </ul>
+          Based on the users' feedback, having the back button label be
+          different for the article based on whether they navigated to the
+          article from the Home page or Expert Advice page would help their
+          understanding on what page they previously were in. Additionally,
+          adding a successful sign out page after signing out would help the
+          users confirm that they indeed did sign out. We feel confident in
+          keeping all other aspects the same and the testing results were
+          successful overall.
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div class="row" id="contact">
+        <h2 class="text-center">Contact the Startup</h2>
+        <p>Finally, we shared our final prototype to the startup! We currently are waiting
+          for their reply and will update this page if there are any updates!
+        </p>
+      </div>
+      <div class="spacer"></div>
+      <div class="row" id="conclusion">
+        <h2 class="text-center">Conclusion</h2>
+        <p> We learned a lot about the iterative process of making an interaction prototype. 
+          For complete transparency, the user test results were from a second set of tests since 
+          our first one ended up quite badly due to misassumptions about the testing process and
+          how intuitive the question flow and tasks would be for the users. Thus, we edited the tasks 
+          to be much more explicit and learned how much the testing format and wording affect the user's 
+          interaction. 
+        </p>
+        <hr/>
+      </div>
+    </main>
+
+    <footer class="page-footer font-small">
+      <div class="container text-center">
+        <p>
+          Website built using Bootstrap's CSS library. <br />
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle"
+            viewBox="0 0 16 16">
+            <path
+              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+          </svg> WailingWhale111 All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
